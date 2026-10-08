@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "title": "Orbit — film produit",
+  "format": "16:9",
+  "fps": 30,
+  "duration": 8,
+  "style": "premium",
+  "brand": {
+    "name": "Orbit",
+    "description": "Un espace pour vos projets, vos équipes et vos idées.",
+    "accent": "#baff5a",
+    "background": "#10120f",
+    "foreground": "#f5f7ef"
+  },
+  "assets": [
+    {
+      "id": "deb5c591-670f-4977-9607-a571129f82af",
+      "name": "capture-produit.png",
+      "role": "screenshot",
+      "src": "/api/assets/deb5c591-670f-4977-9607-a571129f82af",
+      "width": 960,
+      "height": 600
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-hook",
+      "type": "hook",
+      "durationInFrames": 60,
+      "eyebrow": "RENCONTREZ ORBIT",
+      "title": "Les grandes idées commencent ici.",
+      "body": "Moins de friction. Plus de possibilités.",
+      "assetId": null,
+      "statistic": "",
+      "cta": "",
+      "motion": {
+        "entrance": "reveal",
+        "pace": "fast",
+        "transition": "fade",
+        "zoom": 1.12,
+        "focusX": 50,
+        "focusY": 50
+      }
+    },
+    {
+      "id": "scene-feature",
+      "type": "feature",
+      "durationInFrames": 105,
+      "eyebrow": "VOTRE PRODUIT, AU PREMIER PLAN",
+      "title": "Votre équipe. Un seul espace.",
+      "body": "Un espace pour vos projets, vos équipes et vos idées.",
+      "assetId": "deb5c591-670f-4977-9607-a571129f82af",
+      "statistic": "",
+      "cta": "",
+      "motion": {
+        "entrance": "reveal",
+        "pace": "fast",
+        "transition": "fade",
+        "zoom": 1.24,
+        "focusX": 50,
+        "focusY": 50
+      }
+    },
+    {
+      "id": "scene-cta",
+      "type": "cta",
+      "durationInFrames": 75,
+      "eyebrow": "À VOUS DE JOUER",
+      "title": "Votre prochain chapitre commence ici.",
+      "body": "Orbit",
+      "assetId": null,
+      "statistic": "",
+      "cta": "Essayer gratuitement",
+      "motion": {
+        "entrance": "rise",
+        "pace": "fast",
+        "transition": "fade",
+        "zoom": 1.12,
+        "focusX": 50,
+        "focusY": 50
+      }
+    }
+  ]
+}

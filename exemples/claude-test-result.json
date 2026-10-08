@@ -1,0 +1,152 @@
+{
+  "projectId": "74d682ba-ca9f-45e1-9aed-e840973d3870",
+  "sourceId": "822d4ae9-228d-4d35-81bb-7a323f1e793e",
+  "generation": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5-5",
+    "promptVersion": "2026-10-07.1",
+    "repairs": 1,
+    "inputTokens": 15761,
+    "outputTokens": 2774,
+    "visualAssetIds": [
+      "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+      "85a56bd8-16ae-46bd-b45c-4f33bf750714"
+    ]
+  },
+  "creativePlan": {
+    "objective": "Donner envie à un futur créateur de lancer sa boutique avec Shopify, en passant de l'idée à l'action.",
+    "audience": "Personnes qui veulent lancer leur boutique en ligne et cherchent un point de départ clair.",
+    "centralMessage": "Shopify transforme une idée en boutique en ligne, puis aide à gérer l'activité au même endroit.",
+    "visualDirection": "Fond vert très sombre #071c14, typographie claire #f6faf3, accent #95bf47 en filet discret. Le hook est typographique et calme. La capture aux cercles concentriques s'affiche en bandeau large avec un zoom doux vers le centre, comme une ouverture. Le CTA reste typographique ; le logo est ajouté automatiquement par le moteur.",
+    "tone": "Clair, premium, posé et rassurant",
+    "warnings": [
+      "La capture fournie montre des cercles abstraits, pas une interface Shopify : elle sert d'ambiance et ne prouve aucune fonction.",
+      "Aucun chiffre, tarif ni gain de performance n'est affiché, conformément au brief.",
+      "Le bandeau 2000×455 est plus large que le cadre 16:9 : prévoir un cadrage centré, sans déformation.",
+      "Le logo n'est pas assigné à un beat : il est rendu automatiquement par le moteur."
+    ],
+    "beats": [
+      {
+        "purpose": "hook",
+        "message": "Votre idée mérite une boutique.",
+        "assetId": null,
+        "durationInFrames": 120,
+        "animationIntent": "Révélation mot par mot, texte clair sur fond vert sombre, avec un filet d'accent #95bf47 qui apparaît en dessous."
+      },
+      {
+        "purpose": "feature",
+        "message": "Créez votre boutique en ligne et gérez votre activité.",
+        "assetId": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "durationInFrames": 210,
+        "animationIntent": "Fondu depuis le hook, puis zoom progressif de 1 à 1,15 centré sur le cercle central (focus 50/50). Le texte monte doucement sous la capture."
+      },
+      {
+        "purpose": "cta",
+        "message": "Découvrir Shopify",
+        "assetId": null,
+        "durationInFrames": 120,
+        "animationIntent": "Fondu depuis la capture, puis « Découvrir Shopify » monte au centre, net et stable jusqu'à la fin."
+      }
+    ]
+  },
+  "patches": [
+    {
+      "op": "replace",
+      "path": "/scenes/2/cta",
+      "value": "Créer ma boutique"
+    }
+  ],
+  "explanation": "Le CTA de la dernière scène devient « Créer ma boutique ». Le reste du film (textes, couleurs, rythme, durée) reste inchangé.",
+  "spec": {
+    "version": 1,
+    "title": "Shopify : votre idée mérite une boutique",
+    "format": "16:9",
+    "fps": 30,
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créez votre boutique en ligne et gérez votre activité.",
+      "accent": "#95bf47",
+      "background": "#071c14",
+      "foreground": "#f6faf3"
+    },
+    "assets": [
+      {
+        "id": "85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "name": "logo-shopify.png",
+        "role": "logo",
+        "src": "/api/assets/85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "width": 750,
+        "height": 214
+      },
+      {
+        "id": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "name": "shopify-commerce.webp",
+        "role": "screenshot",
+        "src": "/api/assets/5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "width": 2000,
+        "height": 455
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene-hook",
+        "type": "hook",
+        "durationInFrames": 120,
+        "eyebrow": "Lancez-vous",
+        "title": "Votre idée mérite une boutique.",
+        "body": "Un point de départ clair pour passer de l'idée à l'action.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "reveal",
+          "pace": "slow",
+          "transition": "fade",
+          "zoom": 1,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-feature-1",
+        "type": "feature",
+        "durationInFrames": 210,
+        "eyebrow": "Tout au même endroit",
+        "title": "Créez votre boutique en ligne",
+        "body": "Puis gérez votre activité depuis un seul espace.",
+        "assetId": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "rise",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.15,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-cta",
+        "type": "cta",
+        "durationInFrames": 120,
+        "eyebrow": "Prêt à commencer ?",
+        "title": "Votre boutique commence ici.",
+        "body": "Faites le premier pas avec Shopify.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "Créer ma boutique",
+        "motion": {
+          "entrance": "rise",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1,
+          "focusX": 50,
+          "focusY": 50
+        }
+      }
+    ]
+  }
+}

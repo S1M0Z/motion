@@ -1,0 +1,14 @@
+{
+  "id": "b2acd59f-ca68-4973-a26c-d3a1b1998e00",
+  "projectId": "194ea147-6636-426d-9cb0-5eb6e31679e8",
+  "status": "error",
+  "progress": 0.6507,
+  "phase": "Rendu interrompu",
+  "createdAt": "2026-10-08T14:42:21.241Z",
+  "updatedAt": "2026-10-08T14:42:39.989Z",
+  "width": 1920,
+  "height": 1080,
+  "duration": 15,
+  "revision": 1,
+  "error": "Le processus de rendu a été interrompu. Consultez son journal dans data/exports."
+}

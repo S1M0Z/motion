@@ -1,0 +1,141 @@
+{
+  "id": "822d4ae9-228d-4d35-81bb-7a323f1e793e",
+  "brief": {
+    "url": "https://www.shopify.com/fr",
+    "prompt": "Présente Shopify à quelqu’un qui veut lancer sa boutique. Commence par « Votre idée mérite une boutique. ». Montre la capture importée avec un zoom doux. Termine par « Découvrir Shopify ». Ton clair et premium. Aucun chiffre inventé.clé.",
+    "format": "16:9",
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créez votre boutique en ligne et gérez votre activité.",
+      "accent": "#95bf47",
+      "background": "#071c14",
+      "foreground": "#f6faf3"
+    },
+    "assets": [
+      {
+        "id": "85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "name": "logo-shopify.png",
+        "role": "logo",
+        "src": "/api/assets/85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "width": 750,
+        "height": 214
+      },
+      {
+        "id": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "name": "shopify-commerce.webp",
+        "role": "screenshot",
+        "src": "/api/assets/5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "width": 2000,
+        "height": 455
+      }
+    ]
+  },
+  "spec": {
+    "version": 1,
+    "title": "Shopify — film produit",
+    "format": "16:9",
+    "fps": 30,
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créez votre boutique en ligne et gérez votre activité.",
+      "accent": "#95bf47",
+      "background": "#071c14",
+      "foreground": "#f6faf3"
+    },
+    "assets": [
+      {
+        "id": "85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "name": "logo-shopify.png",
+        "role": "logo",
+        "src": "/api/assets/85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "width": 750,
+        "height": 214
+      },
+      {
+        "id": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "name": "shopify-commerce.webp",
+        "role": "screenshot",
+        "src": "/api/assets/5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "width": 2000,
+        "height": 455
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene-hook",
+        "type": "hook",
+        "durationInFrames": 105,
+        "eyebrow": "RENCONTREZ SHOPIFY",
+        "title": " Votre idée mérite une boutique. ",
+        "body": "Moins de friction. Plus de possibilités.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "reveal",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.12,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-feature",
+        "type": "feature",
+        "durationInFrames": 210,
+        "eyebrow": "VOTRE PRODUIT, AU PREMIER PLAN",
+        "title": " Découvrir Shopify ",
+        "body": "Créez votre boutique en ligne et gérez votre activité.",
+        "assetId": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "reveal",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.12,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-cta",
+        "type": "cta",
+        "durationInFrames": 135,
+        "eyebrow": "À VOUS DE JOUER",
+        "title": "Votre prochain chapitre commence ici.",
+        "body": "www.shopify.com",
+        "assetId": null,
+        "statistic": "",
+        "cta": "Découvrir Shopify",
+        "motion": {
+          "entrance": "rise",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.12,
+          "focusX": 50,
+          "focusY": 50
+        }
+      }
+    ]
+  },
+  "generation": {
+    "provider": "local",
+    "model": "local",
+    "promptVersion": "2026-10-07.1",
+    "repairs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "visualAssetIds": []
+  },
+  "revision": 1,
+  "engine": "local",
+  "createdAt": "2026-10-07T18:27:55.592Z",
+  "updatedAt": "2026-10-07T18:27:55.592Z",
+  "history": []
+}

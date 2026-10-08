@@ -1,0 +1,175 @@
+{
+  "id": "766536e5-4411-4b66-a5df-bd2f00fa5bd0",
+  "brief": {
+    "url": "https://www.shopify.com/fr",
+    "prompt": "\"Votre idée mérite une boutique.\" \"Une boutique à votre image.\" Présente Shopify en 15 secondes : création de boutique en ligne, produits et gestion de l’activité. Typographie premium, fond sombre, zoom doux sur le visuel public, CTA Découvrir Shopify. Aucun chiffre clé.",
+    "format": "16:9",
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créez votre boutique en ligne et gérez votre activité.",
+      "accent": "#95bf47",
+      "background": "#071c14",
+      "foreground": "#f6faf3"
+    },
+    "assets": [
+      {
+        "id": "85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "name": "logo-shopify.png",
+        "role": "logo",
+        "src": "/api/assets/85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "width": 750,
+        "height": 214
+      },
+      {
+        "id": "5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "name": "shopify-commerce.webp",
+        "role": "screenshot",
+        "src": "/api/assets/5a2d46b7-8450-401d-b11c-8e25feccfb6a",
+        "width": 2000,
+        "height": 455
+      }
+    ]
+  },
+  "spec": {
+    "version": 1,
+    "title": "Shopify — film de démonstration",
+    "format": "16:9",
+    "fps": 30,
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créez votre boutique en ligne et gérez votre activité.",
+      "accent": "#95bf47",
+      "background": "#071c14",
+      "foreground": "#f6faf3"
+    },
+    "assets": [
+      {
+        "id": "85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "name": "logo-shopify.png",
+        "role": "logo",
+        "src": "/api/assets/85a56bd8-16ae-46bd-b45c-4f33bf750714",
+        "width": 750,
+        "height": 214
+      },
+      {
+        "id": "ece89499-14a3-4620-90d4-17583a1345c5",
+        "name": "capture-shopify-commerce.jpg",
+        "role": "screenshot",
+        "src": "/api/assets/ece89499-14a3-4620-90d4-17583a1345c5",
+        "width": 1265,
+        "height": 712
+      }
+    ],
+    "scenes": [
+      {
+        "id": "scene-hook",
+        "type": "hook",
+        "durationInFrames": 105,
+        "eyebrow": "VOTRE COMMERCE COMMENCE ICI",
+        "title": "Votre idée mérite une boutique.",
+        "body": "Créez votre marque avec Shopify.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "reveal",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.12,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-feature",
+        "type": "feature",
+        "durationInFrames": 210,
+        "eyebrow": "UNE BOUTIQUE QUI VOUS RESSEMBLE",
+        "title": "Une boutique à votre image.",
+        "body": "Personnalisez votre vitrine. Présentez vos produits. Gérez votre activité.",
+        "assetId": "ece89499-14a3-4620-90d4-17583a1345c5",
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "reveal",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.2,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-cta",
+        "type": "cta",
+        "durationInFrames": 135,
+        "eyebrow": "VOTRE PROCHAIN CHAPITRE",
+        "title": "Faites passer votre idée à l’action.",
+        "body": "shopify.com",
+        "assetId": null,
+        "statistic": "",
+        "cta": "Découvrir Shopify",
+        "motion": {
+          "entrance": "rise",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1.12,
+          "focusX": 50,
+          "focusY": 50
+        }
+      }
+    ]
+  },
+  "revision": 6,
+  "engine": "local",
+  "createdAt": "2026-10-07T17:29:07.929Z",
+  "updatedAt": "2026-10-07T17:39:22.733Z",
+  "history": [
+    {
+      "instruction": "Scène 2, zoom 20%, cadrage à gauche et transition en fondu",
+      "patches": [
+        {
+          "op": "replace",
+          "path": "/scenes/1/motion/transition",
+          "value": "fade"
+        },
+        {
+          "op": "replace",
+          "path": "/scenes/1/motion/zoom",
+          "value": 1.2
+        },
+        {
+          "op": "replace",
+          "path": "/scenes/1/motion/focusX",
+          "value": 20
+        }
+      ],
+      "at": "2026-10-07T17:29:07.954Z"
+    },
+    {
+      "instruction": "Scène 2, cadrage centré et zoom 20%",
+      "patches": [
+        {
+          "op": "replace",
+          "path": "/scenes/1/motion/zoom",
+          "value": 1.2
+        },
+        {
+          "op": "replace",
+          "path": "/scenes/1/motion/focusX",
+          "value": 50
+        },
+        {
+          "op": "replace",
+          "path": "/scenes/1/motion/focusY",
+          "value": 50
+        }
+      ],
+      "at": "2026-10-07T17:33:14.940Z"
+    }
+  ]
+}

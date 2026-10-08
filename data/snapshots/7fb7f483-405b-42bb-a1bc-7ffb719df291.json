@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "title": "Shopify — Créez votre boutique en ligne",
+  "format": "16:9",
+  "fps": 30,
+  "duration": 15,
+  "style": "premium",
+  "brand": {
+    "name": "Shopify",
+    "description": "Créer une boutique en ligne, présenter ses produits, gérer ses commandes.",
+    "accent": "#5e8e3e",
+    "background": "#0b1324",
+    "foreground": "#ffffff"
+  },
+  "assets": [],
+  "scenes": [
+    {
+      "id": "scene-hook",
+      "type": "hook",
+      "durationInFrames": 120,
+      "eyebrow": "Votre marque, votre style",
+      "title": "Votre idée mérite sa boutique",
+      "body": "Shopify vous donne le contrôle total, sans complexité.",
+      "assetId": null,
+      "statistic": "",
+      "cta": "",
+      "motion": {
+        "entrance": "rise",
+        "pace": "balanced",
+        "transition": "fade",
+        "zoom": 1,
+        "focusX": 50,
+        "focusY": 50
+      }
+    },
+    {
+      "id": "scene-feature-1",
+      "type": "feature",
+      "durationInFrames": 180,
+      "eyebrow": "Tout-en-un",
+      "title": "Produits, commandes, tout au même endroit",
+      "body": "Présentez vos produits et suivez vos commandes sans jongler entre outils.",
+      "assetId": null,
+      "statistic": "",
+      "cta": "",
+      "motion": {
+        "entrance": "reveal",
+        "pace": "balanced",
+        "transition": "slide",
+        "zoom": 1.08,
+        "focusX": 50,
+        "focusY": 50
+      }
+    },
+    {
+      "id": "scene-cta",
+      "type": "cta",
+      "durationInFrames": 150,
+      "eyebrow": "Prêt à vous lancer ?",
+      "title": "Lancez votre boutique aujourd'hui",
+      "body": "Shopify vous accompagne à chaque étape, en toute confiance.",
+      "assetId": null,
+      "statistic": "",
+      "cta": "Créer ma boutique",
+      "motion": {
+        "entrance": "typewriter",
+        "pace": "slow",
+        "transition": "fade",
+        "zoom": 1,
+        "focusX": 50,
+        "focusY": 50
+      }
+    }
+  ]
+}

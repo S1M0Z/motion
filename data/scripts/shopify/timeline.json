@@ -1,0 +1,45 @@
+{
+  "lines": [
+    {
+      "i": 0,
+      "vo": "Vous avez un produit. Il vous manque juste une boutique.",
+      "start": 0.3,
+      "end": 3.5799999999999996,
+      "sStart": 0,
+      "sEnd": 3.7799999999999994
+    },
+    {
+      "i": 1,
+      "vo": "Avec Shopify, créez votre boutique en ligne en quelques minutes, sans écrire une seule ligne de code.",
+      "start": 3.9799999999999995,
+      "end": 10.25,
+      "sStart": 3.4799999999999995,
+      "sEnd": 10.45
+    },
+    {
+      "i": 2,
+      "vo": "Présentez vos produits, encaissez les paiements, suivez vos commandes, au même endroit.",
+      "start": 10.649999999999999,
+      "end": 15.759999999999998,
+      "sStart": 10.149999999999999,
+      "sEnd": 15.96
+    },
+    {
+      "i": 3,
+      "vo": "Des premières ventes jusqu'à des millions de commandes, Shopify grandit avec vous.",
+      "start": 16.16,
+      "end": 20.66,
+      "sStart": 15.66,
+      "sEnd": 20.860000000000003
+    },
+    {
+      "i": 4,
+      "vo": "Shopify. Lancez. Vendez. Grandissez.",
+      "start": 21.060000000000002,
+      "end": 24.310000000000002,
+      "sStart": 20.560000000000002,
+      "sEnd": 25.7
+    }
+  ],
+  "dur": 25.7
+}

@@ -1,0 +1,142 @@
+{
+  "id": "194ea147-6636-426d-9cb0-5eb6e31679e8",
+  "brief": {
+    "url": "",
+    "prompt": "Vidéo pour Shopify : plateforme de e-commerce qui permet de créer sa boutique en ligne, présenter ses produits et gérer ses commandes. Public : entrepreneurs et petites marques. Ton premium et rassurant. CTA : Créer ma boutique.",
+    "format": "16:9",
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créer une boutique en ligne, présenter ses produits, gérer ses commandes.",
+      "accent": "#5e8e3e",
+      "background": "#0b1324",
+      "foreground": "#ffffff"
+    },
+    "assets": []
+  },
+  "spec": {
+    "version": 1,
+    "title": "Shopify — Créez votre boutique en ligne",
+    "format": "16:9",
+    "fps": 30,
+    "duration": 15,
+    "style": "premium",
+    "brand": {
+      "name": "Shopify",
+      "description": "Créer une boutique en ligne, présenter ses produits, gérer ses commandes.",
+      "accent": "#5e8e3e",
+      "background": "#0b1324",
+      "foreground": "#ffffff"
+    },
+    "assets": [],
+    "scenes": [
+      {
+        "id": "scene-hook",
+        "type": "hook",
+        "durationInFrames": 120,
+        "eyebrow": "Votre marque, votre style",
+        "title": "Votre idée mérite sa boutique",
+        "body": "Shopify vous donne le contrôle total, sans complexité.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "rise",
+          "pace": "balanced",
+          "transition": "fade",
+          "zoom": 1,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-feature-1",
+        "type": "feature",
+        "durationInFrames": 180,
+        "eyebrow": "Tout-en-un",
+        "title": "Produits, commandes, tout au même endroit",
+        "body": "Présentez vos produits et suivez vos commandes sans jongler entre outils.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "",
+        "motion": {
+          "entrance": "reveal",
+          "pace": "balanced",
+          "transition": "slide",
+          "zoom": 1.08,
+          "focusX": 50,
+          "focusY": 50
+        }
+      },
+      {
+        "id": "scene-cta",
+        "type": "cta",
+        "durationInFrames": 150,
+        "eyebrow": "Prêt à vous lancer ?",
+        "title": "Lancez votre boutique aujourd'hui",
+        "body": "Shopify vous accompagne à chaque étape, en toute confiance.",
+        "assetId": null,
+        "statistic": "",
+        "cta": "Créer ma boutique",
+        "motion": {
+          "entrance": "typewriter",
+          "pace": "slow",
+          "transition": "fade",
+          "zoom": 1,
+          "focusX": 50,
+          "focusY": 50
+        }
+      }
+    ]
+  },
+  "creativePlan": {
+    "objective": "Inciter les entrepreneurs et petites marques à créer leur boutique en ligne avec Shopify",
+    "audience": "Entrepreneurs et petites marques souhaitant vendre en ligne",
+    "centralMessage": "Shopify réunit création de boutique, présentation produits et gestion des commandes en un seul endroit",
+    "visualDirection": "Approche premium et calme : typographie soignée sur fond sombre, transitions douces en fondu, pas de capture produit disponible donc mise en scène typographique épurée pour évoquer la simplicité et le contrôle",
+    "tone": "premium et rassurant",
+    "warnings": [
+      "Aucun asset visuel fourni : les trois scènes reposent sur une mise en scène typographique générique plutôt que sur des captures produit réelles",
+      "Aucun chiffre ou bénéfice quantifié n'a été fourni ; le message reste qualitatif",
+      "Aucune capture produit : l’aperçu utilisera une interface de démonstration."
+    ],
+    "beats": [
+      {
+        "purpose": "hook",
+        "message": "Votre idée mérite sa boutique",
+        "assetId": null,
+        "durationInFrames": 120,
+        "animationIntent": "Entrée montante du titre, fondu doux depuis le fond sombre"
+      },
+      {
+        "purpose": "feature",
+        "message": "Présentez vos produits, suivez vos commandes, au même endroit",
+        "assetId": null,
+        "durationInFrames": 180,
+        "animationIntent": "Révélation mot par mot du message, glissement léger entre les deux idées produits/commandes"
+      },
+      {
+        "purpose": "cta",
+        "message": "Créer ma boutique",
+        "assetId": null,
+        "durationInFrames": 150,
+        "animationIntent": "Zoom progressif léger sur le CTA, apparition typée pour renforcer l'appel à l'action"
+      }
+    ]
+  },
+  "generation": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5",
+    "promptVersion": "2026-10-07.1",
+    "repairs": 0,
+    "inputTokens": 7598,
+    "outputTokens": 1889,
+    "visualAssetIds": []
+  },
+  "revision": 1,
+  "engine": "anthropic",
+  "createdAt": "2026-10-08T14:41:22.850Z",
+  "updatedAt": "2026-10-08T14:41:22.850Z",
+  "history": []
+}
